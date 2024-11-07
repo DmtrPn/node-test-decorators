@@ -1,0 +1,31 @@
+type Optional<T> = T | undefined;
+declare class Expect {
+    private readonly currentValue;
+    private isNot;
+    constructor(value: any);
+    get not(): Expect;
+    toInclude(target: string): void;
+    toBeInstanceOf(target: any): void;
+    toMatchObject(target: object): void;
+    toEqual(target: Optional<object | string | number>): void;
+    toBe(target: Optional<string | number | boolean | Date>): void;
+    toBeNil(): void;
+    toBeAfter(target: Date): void;
+    toBeGreaterThanOrEqual(target: number): void;
+    toBeArrayOfSize(targetLength: number): void;
+    toBeDefined(): void;
+    toBeNull(): void;
+    toBeDate(): void;
+    toBeUndefined(): void;
+    toContain(target: any): void;
+    toContainEqual(target: any): void;
+    toContainAllValues(target: any[]): void;
+    toBeFalse(): void;
+    toBeTrue(): void;
+    toBeTruthy(): void;
+    toBeGreaterThan(target: number): void;
+    toBeNegative(): void;
+    toBePositive(): void;
+}
+export declare function expect(currentValue: any): Expect;
+export {};
