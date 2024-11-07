@@ -4,6 +4,14 @@
   "description": "A TypeScript library of decorators for node:test",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmtrPn/node-test-decorators"
+  },
+  "homepage": "https://github.com/DmtrPn/node-test-decorators",
+  "bugs": {
+    "url": "https://github.com/DmtrPn/node-test-decorators/issues"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
