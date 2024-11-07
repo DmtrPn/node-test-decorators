@@ -1,6 +1,6 @@
 {
   "name": "node-test-decorators",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript library of decorators for node:test",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
