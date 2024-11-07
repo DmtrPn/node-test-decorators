@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/node-test-decorators.svg)](https://www.npmjs.com/package/node-test-decorators)
+
 # node-test-decorators
 
 A TypeScript decorator library designed to simplify and organize tests in node:test with a decorator-based, OOP-friendly approach. Transitioning from Jest to node:test can be challenging, as it introduces syntactic differences and lacks some familiar tools. However, node:test is a faster and more lightweight alternative, making it an attractive option for those looking to improve test performance.
