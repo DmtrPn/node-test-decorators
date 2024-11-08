@@ -14,7 +14,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test:dist": " node --test"
   },
   "keywords": [
     "node",
